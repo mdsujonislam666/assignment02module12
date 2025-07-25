@@ -127,6 +127,12 @@
     gap: 20px;
     margin-top: 50px;
 }
+.card h3, p{
+    text-align: center;
+}
+.card h3{
+    margin-bottom: 0px;
+}
 
 /* flower & plants lover section styles */
 .plantsLover-container {
@@ -139,11 +145,11 @@
 }
 
 .plants-title {
-    font-size: 3.5rem;
+    font-size: 3rem;
 }
 
 .plants-discription {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .store-img {
@@ -278,6 +284,7 @@
 }
 .footer-content{
     max-width: 220px;
+    text-align: start;
 }
 
 .footer-logo{
