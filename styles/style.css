@@ -18,6 +18,11 @@
     border: none;
     width: 100%;
 }
+.btn-primary:hover {
+    background-color: rgb(16, 109, 231);
+    color: black;
+    cursor: pointer;
+}
 
 .common-content {
     max-width: 800px;
@@ -71,7 +76,9 @@
 .nav-container2 ul a {
     text-decoration: none;
 }
-
+.shop-about:hover{
+    color: black;
+}
 .shop-about {
     color: #8987A1;
 }
@@ -104,6 +111,7 @@
 
 .header-image {
     width: 100%;
+    cursor: pointer;
 }
 
 /* our plants section styles */
@@ -163,6 +171,7 @@
     height: 250px;
     margin-left: 380px;
     margin-top: -100px;
+    cursor: pointer;
 }
 
 .plants-content {
@@ -177,6 +186,7 @@
     grid-template-rows: repeat(3, 1fr);
     gap: 30px;
     margin-top: 50px;
+    cursor: pointer;
 }
 .our-plants-container{
     margin-top: 100px;
@@ -196,11 +206,12 @@
 .zabo-content{
     align-items: center;
     text-align: center;
-    padding: 100px 10px;
+    padding: 120px 10px;
     margin-bottom: 0px;
 }
 .zabo-content h3{
     font-size: 2.5rem;
+    margin-bottom: 0px;
 }
 .zabo-content a{
     font-size: 2rem;
@@ -291,10 +302,16 @@
 
 .footer-logo{
     display: flex;
-    gap: 10px;
+    gap: 20px;
     width: 40px;
     height: 40px;
-    padding-top: 50px;
+    padding-top: 80px;
+    text-align: center;
+    align-items: center;
+}
+
+.footer-menu ul a:hover{
+    color: #8987A1;
 }
 .footer-menu ul li{
     list-style: none;
@@ -308,6 +325,7 @@
 
 
 @media screen and (max-width: 576px) {
+    
 
     /* nav section responsive */
     .navber-container {
